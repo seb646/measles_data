@@ -6,7 +6,7 @@ print("This program compiles data about Measels immunization levels around the w
 print("Data provided by the World Health Organization.\n")
 
 # Prompt the user for the name of an output file
-output_name = str(input("What do you want to name the output file? "))
+output_name = str(input("What do you want to name the output file (without extension)? "))
 output_name += ".csv"
 
 # Prompt the user to enter a year from 1980 to 2017 (or all)
